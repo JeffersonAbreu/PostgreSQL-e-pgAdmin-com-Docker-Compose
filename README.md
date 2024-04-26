@@ -4,7 +4,10 @@ Caso não tenha o `docker` e o `docker-compose`, pode ser instalado com:
 ```bash
 sudo snap install docker
 sudo apt  install docker-compose
+sudo usermod -aG docker $(whoami)
 ```
+Reinicie o PC
+
 #### Checar a instalação do docker.
 
 ```bash
